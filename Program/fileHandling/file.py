@@ -1,0 +1,8 @@
+f = open('demo.txt','w')
+print('file name',f.name)
+print('file mode',f.mode)
+print('file is readable ?',f.readable())
+print('file is writable ?',f.writable())
+print('file is closed?"',f.closed)
+f.close()
+print("file is closed?",f.closed)

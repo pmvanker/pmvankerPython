@@ -1,0 +1,5 @@
+fname = input("Please type file name :")
+feedback = input("feedback :")
+f = open(fname,'w')
+f.write(feedback)
+f.close()
